@@ -1,14 +1,17 @@
-import React from "react";
+import React from 'react';
 
-const hero = (handleLogout) => {
-    return(
-        <section className="hero">
+const Hero = ({handleLogout}) => {
+
+    return (
+        <section className="dashboard">
             <nav>
-                <h2>welcome</h2>
+                <h2>Bienvenido</h2>
                 <button onClick={handleLogout}>Logout</button>
             </nav>
+        </section>
+        
+    )
 
-        </section>)
 }
 
-export default hero;
+export default Hero;
